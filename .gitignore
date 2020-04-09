@@ -73,3 +73,4 @@ file/matrix.room.web.json
 
 # VSCode user settings
 .vscode/
+variables.example.env
