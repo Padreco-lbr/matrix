@@ -1,0 +1,8 @@
+[
+  { "id": "uidroom00", "name": "Lobby", "disableMeeting": "true" },
+  { "id": "uidroom01", "name": "Common" },
+  { "id": "uidroom02", "name": "Internal Meetings 1" },
+  { "id": "uidroom03", "name": "Internal Meetings 2" },
+  { "id": "uidroom04", "name": "External Meetings 1" },
+  { "id": "uidroom05", "name": "External Meetings 2" }
+]

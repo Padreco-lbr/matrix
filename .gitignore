@@ -69,7 +69,7 @@ public/dist
 backend/dist
 
 # Generated random room config
-file/matrix.room.web.json
+# file/matrix.room.web.json
 
 # VSCode user settings
 .vscode/

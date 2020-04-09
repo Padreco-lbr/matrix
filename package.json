@@ -5,14 +5,14 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "postinstall": "npm run bootstrap",
+    "postinstall": "npm run bootstrap && npm run build-backend && npm run build-frontend",
     "list": "lerna list",
     "lint": "eslint './**/*.js'",
     "test": "env CI=true lerna run test --stream",
     "cover": "env CI=true lerna run cover --stream",
     "build-backend": "lerna run build-backend --stream",
     "build-frontend": "lerna run build-frontend --stream",
-    "start": "lerna run start --stream",
+    "start": "lerna run start-backend --stream",
     "start-backend": "lerna run start-backend --stream"
   },
   "devDependencies": {
@@ -28,5 +28,6 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "lerna": "^3.16.4"
-  }
+  },
+  "dependencies": {}
 }
